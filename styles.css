@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background-color: #1c1a27;
+    margin: 0;
+}
+/*Add shadows to different <div> elements:*/
+.app-title {
+    box-shadow: 5px 20px 35px -25px #888888;
+}
+
+h1 {
+    font-family: Monoton;
+    text-align: center;
+    font-size: 70px;
+    margin: 0.2em;
+    color: blue;
+    font-weight: 500;
+}
+
+h2 {
+    color: red;
+    margin: 1em 0 0.25em;
+}
+.numberOfCells{
+    font-weight: 500;
+    padding-left: 15px;
+    font-family: 'Open Sans';
+    font-size: 0.8em;
+    
+}
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    margin: 0 25px 10px 0;
+    border: 2px solid #fefcfa;
+    border-radius: 25px;
+}
+#sizePicker {
+    padding-left: 40px;
+}
+input[type=submit] {
+    background-color: #026b0a;
+    font-weight: 300;
+    width: 7em;
+    height: 4em;
+    margin-top: 5%;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.6);
+    border: 1px solid #ed9d5c;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+input[type=submit]:hover {
+  opacity: 0.4;
+}
+input[type=color] {
+    width: 4em;
+    height: 2em;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.pick-size {
+    font-family: 'Open Sans';
+    font-size: 0.8em;
+    font-weight: 500;
+}
